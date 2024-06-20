@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F99501;
+    font-family: sans-serif;
+    
+}
+
+.top{
+    background-image: url("./images/orange-backdrop\ 1.png");
+    background-size:cover ;
+}
+
+.top pre{
+    
+    
+    font-weight: 400;
+    line-height: 57.22px;
+    font-size: 46.67px;
+}
+
+audio{
+    width: 496px;
+height: 61px;
+position: relative;
+/* top: 100px; */
+left: 310px;
+
+}
+
+.horizontal{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    
+}
+
+.horizontalLine{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+
+.horizontalLine .line{
+   
+    /* height: 2px; */
+    width: 468px;
+    border-radius: 100%;
+    border: 3px solid #FBD8A4
+
+
+}
+
+.horizontal .horizontalLine .dots{
+    display: flex;
+    gap: 0.2rem;
+}
+
+
+.horizontal .horizontalLine .dots .dot{
+    width: 2px;
+    /* height: 2px; */
+    display: block;
+    border-radius: 100%;
+    border: 3px solid #FBD8A4 ;
+
+
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+}
+
+.wishText{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    
+font-size: 70.04px;
+font-weight: 400;
+line-height: 106.46px;
+text-align: left;
+font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.wishCard1{
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+    /* background-color: red; */
+}
+
+.wishCard1 .card{
+    background-color: white;
+    width: 855px;
+    height: 753px;
+    border-radius: 10px;
+    align-self: center;
+    /* position: relative;
+    left: 20px; */
+}
+
+.wishCard1 .card .wishText1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Salsa;
+font-size: 45.14px;
+font-weight: 400;
+line-height: 55.35px;
+text-align: left;
+font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+    gap: 3rem;
+}
+
+.wishCard1 img{
+    position: relative;
+    left: -125px;
+}
+
+.bagwanImg{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.greet{
+    display: flex;
+    /* justify-content: center; */
+    margin: 0 4rem;
+}
+
+
+.happyDiwal{
+    font-family: Salsa;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.42px;
+    text-align: left;
+    
+}
+
+
+.thankyou{
+
+    font-family: Style Script;
+font-size: 70.5px;
+font-weight: 400;
+line-height: 107.16px;
+text-align: left;
+
+
+}
+
